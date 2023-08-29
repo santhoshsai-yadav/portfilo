@@ -1,140 +1,80 @@
-.checkbtn{
-    border: 2px solid black;
-    border-radius: 2px;
-    margin-right: 20px;
-    display: none;
-}
-#check{
-    display: none;
-}
-@media (max-width:576px) {
-    .navlinks{
-        position: absolute;
-        top: 290px;
-        display: none;
-        flex-direction: column;
-        height: 100px;
-        width: 100%;
+@media (max-width: 1199.5px) {
+    h1{
+        font-size: 3.75rem;
     }
-    .navlinks a{
-        display: flex;
-        align-items: center;
+
+    h2{
+        font-size: 2.1875rem;
+    }
+
+    
+    h3{
+        font-size: 1.875rem;
+        line-height:2.6875rem ;
+    }
+
+    h5{
+        font-size: 1.0625rem;
+    }
+    .blog_wrapper .blog_details{
+        top: 0.3125rem;
+        left: 0.3125rem;
+        right: 0.3125rem;
+        bottom: 0.3125rem;
+
+    }
+}
+@media (max-width:767px) {
+    h1{
+        font-size:2.5rem;  
+        line-height: 3rem;
+    }
+    h2{
+        font-size: 1.875rem;
+        line-height: 2.375rem;
+    }
+
+    h3{
+        font-size: 1.5625rem;
+        line-height: 2.1875rem;
+    }
+    .about_wrapper .client-info:before{
+        top:-0.25rem;
+    left:2.8125rem;
+    }
+    .about_wrapper .client-info > div{
         justify-content: center;
-        height: 100px;
-        width: 400px;
-        background-color: #4b208c;
-    }
-    .navlinks a:hover{
-        background-color: black;
-    }
-    .checkbtn{
-        display: block;
-    }
-    #check:checked~.navlinks{
-        display: flex;
- 
     }
 
-    .herocontainer{
-      flex-direction: column;
-    }
-    .herosection img{
-        height: 450px;
-       margin-top: 30px;
-    }
-    .herocontent button{
-        margin-left: 150px;
-    }
-    .services h2{
-        margin-left: 0px;
-    }
-    .about{
-        display: flex;
-        flex-direction: column;
-    }
-    .us p{
-        width: 100%;
-        padding-left: 0px;
-    }
-    .us h2{
-        margin-left: 0px;
-        
-    }
-    .us button {
-        margin-left: 0px;
-       
-    }
-    .world{
-        display: flex;
-        flex-direction: column;
-        margin-left: 0px;
-    }
-    .maps img{
-        padding: 0px 50px;
-        height: 300px;
-       
-    }
-    .details h2{
-        width: 300px;
-    }
-    .details h3{
-        width: 300px;  
-    }
-    .details h4 {
-        width: 300px;   
-    }
-    .details h5 {
-        width: 300px;   
-    }
-    .maps img{
-       margin-top: 20px;
-    }
-    .loca{
-        display: flex;
-        flex-direction: column;
-        line-height: 30px;
-        width: 100%;
-    }
-    .location i{
-        font-size: 10px;
-      }
 
-    .phone i{
-        font-size: 10px;
+}
+@media (max-width:991px){
+    .header-scrolled{
+        height: auto;
     }
+    .header_wrapper .navbar-collapse{
+        margin-top: -0.125rem;
+    }
+    .header_wrapper .menu-navbar-nav{
+        text-align: center;
+        background-color:var(--bg-white);
+        padding-bottom:0.9375rem;
+    }
+    .header_wrapper .nav-item .nav-link {
+        margin-top: 0.9375rem;
+    }
+} 
 
-    .envelope i{
-        font-size: 10px;
+@media (max-width:390px)  {
+    .banner_wrapper .banner-content h2::after{
+        left: 34%;
     }
-    .email{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        margin-right: 100px;
+}
+@media (max-width:575.5px)  {
+    .blog_wrapper .blog_details{
+        top:2.1875rem;
+        left:2.1875rem;
+        right:2.1875rem;
+        bottom:2.1875rem;
     }
-    .subcribe{
-        padding: 10px 200px;
-        width: 82%;
-        margin-left: 90px;
-        margin-top: 20px;
-    }
-
-    .icons {
-        width: 100%;
-        margin-top: 20px;
-        margin-left: 50px;
-    }
-    .hhhh{
-        font-size: 10px;
-        margin-left: 80px;
-    }
-    .hello{
-        width: 50%;
-    }
-    .header img {
-  height: 150px;
-    }
-   .read button{
-    margin-left: 150px;
-   }
 }
