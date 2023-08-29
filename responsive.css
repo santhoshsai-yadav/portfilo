@@ -1,0 +1,140 @@
+.checkbtn{
+    border: 2px solid black;
+    border-radius: 2px;
+    margin-right: 20px;
+    display: none;
+}
+#check{
+    display: none;
+}
+@media (max-width:576px) {
+    .navlinks{
+        position: absolute;
+        top: 290px;
+        display: none;
+        flex-direction: column;
+        height: 100px;
+        width: 100%;
+    }
+    .navlinks a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+        width: 400px;
+        background-color: #4b208c;
+    }
+    .navlinks a:hover{
+        background-color: black;
+    }
+    .checkbtn{
+        display: block;
+    }
+    #check:checked~.navlinks{
+        display: flex;
+ 
+    }
+
+    .herocontainer{
+      flex-direction: column;
+    }
+    .herosection img{
+        height: 450px;
+       margin-top: 30px;
+    }
+    .herocontent button{
+        margin-left: 150px;
+    }
+    .services h2{
+        margin-left: 0px;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+    }
+    .us p{
+        width: 100%;
+        padding-left: 0px;
+    }
+    .us h2{
+        margin-left: 0px;
+        
+    }
+    .us button {
+        margin-left: 0px;
+       
+    }
+    .world{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+    .maps img{
+        padding: 0px 50px;
+        height: 300px;
+       
+    }
+    .details h2{
+        width: 300px;
+    }
+    .details h3{
+        width: 300px;  
+    }
+    .details h4 {
+        width: 300px;   
+    }
+    .details h5 {
+        width: 300px;   
+    }
+    .maps img{
+       margin-top: 20px;
+    }
+    .loca{
+        display: flex;
+        flex-direction: column;
+        line-height: 30px;
+        width: 100%;
+    }
+    .location i{
+        font-size: 10px;
+      }
+
+    .phone i{
+        font-size: 10px;
+    }
+
+    .envelope i{
+        font-size: 10px;
+    }
+    .email{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-right: 100px;
+    }
+    .subcribe{
+        padding: 10px 200px;
+        width: 82%;
+        margin-left: 90px;
+        margin-top: 20px;
+    }
+
+    .icons {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+    .hhhh{
+        font-size: 10px;
+        margin-left: 80px;
+    }
+    .hello{
+        width: 50%;
+    }
+    .header img {
+  height: 150px;
+    }
+   .read button{
+    margin-left: 150px;
+   }
+}
